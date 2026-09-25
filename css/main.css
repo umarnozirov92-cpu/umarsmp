@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+*{
+    text-decoration: none;
+}
+*{
+    list-style: none;
+}
+
+.continier{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+
+
+#hero{
+    background-image: url(/image\ copy\ 2.png);
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-position: center;
+   
+
+}
+.card img{
+    width: 100%;
+}
+.card{
+    width: 300px;
+    padding: 30px;
+    background: linear-gradient(  blue , rgb(12, 92, 6));
+  
+
+}
+
+.card h1{
+background:linear-gradient( rgb(255, 54, 4) , rgb(0, 16, 95));
+background-clip: text;
+color: transparent;
+-webkit-background-clip: text;
+
+
+}
+
+
+.card p{
+    background:linear-gradient( rgb(234, 255, 0) , rgb(255, 95, 95));
+background-clip: text;
+color: transparent;
+-webkit-background-clip: text;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+    backdrop-filter: blur();
+}
+
+.hedr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: gold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.links li{
+      color: white;
+
+}
+
+
+
+li:hover{
+background-color: aqua;
+color: blue;
+}
